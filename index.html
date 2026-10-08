@@ -1,0 +1,793 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>hàbits health coworking · Fisioterapia, entrenamiento, osteopatía y nutrición en Barcelona</title>
+<meta name="description" content="Centro de salud física en el Eixample de Barcelona: fisioterapia, entrenamiento personal, osteopatía y nutrición en un mismo espacio. 4,9 ★ en Google. Reserva por WhatsApp: 649 20 87 86.">
+<meta name="theme-color" content="#0F1A14">
+<!-- Propuesta de diseño, todavía no es la web oficial: que no salga en buscadores. Quitar al publicarla de verdad. -->
+<meta name="robots" content="noindex, nofollow">
+<meta property="og:type" content="website">
+<meta property="og:title" content="hàbits health coworking · Barcelona">
+<meta property="og:description" content="Fisioterapia, entrenamiento personal, osteopatía y nutrición en un mismo espacio. 4,9 ★ con 61 opiniones en Google.">
+<meta property="og:image" content="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&w=1200&h=630&q=80">
+<meta property="og:locale" content="es_ES">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%230F1A14'/%3E%3Ctext x='32' y='45' font-family='Arial,sans-serif' font-size='38' font-weight='800' text-anchor='middle' fill='%23D4F25A'%3Eh%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://images.unsplash.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HealthClub",
+  "name": "hàbits health coworking",
+  "image": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&w=1200&q=80",
+  "telephone": "+34 649 20 87 86",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Carrer de Muntaner, 52, Local Dreta",
+    "addressLocality": "Barcelona",
+    "postalCode": "08011",
+    "addressRegion": "Barcelona",
+    "addressCountry": "ES"
+  },
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "07:00", "closes": "21:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "09:00", "closes": "21:00" }
+  ],
+  "sameAs": ["https://www.instagram.com/habitshealthcoworking/", "https://www.tiktok.com/@habitshealthcoworking", "https://www.facebook.com/Habitshealthcoworking/"]
+}
+</script>
+
+<style>
+:root{
+  --bg:#F3F2EC;
+  --paper:#FBFAF6;
+  --sage:#DDE4D8;
+  --ink:#0F1A14;
+  --ink-2:#2E3A33;
+  --muted:#5F6B64;
+  --green:#1E4A37;
+  --green-2:#173A2B;
+  --lime:#D4F25A;
+  --lime-2:#C2E43F;
+  --line:rgba(15,26,20,.12);
+  --line-d:rgba(244,243,236,.14);
+  --wa:#1FA855;
+  --radius:22px;
+  --shadow:0 30px 60px -30px rgba(15,26,20,.45);
+  --display:"Archivo", "Arial Black", system-ui, sans-serif;
+  --sans:"Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --wrap:min(1240px, calc(100% - 48px));
+  --ease:cubic-bezier(.2,.7,.2,1);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:16.5px;line-height:1.65;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:inherit}
+::selection{background:var(--lime);color:var(--ink)}
+.wrap{width:var(--wrap);margin-inline:auto}
+.skip{position:absolute;left:-999px;top:8px;background:var(--ink);color:#fff;padding:8px 14px;border-radius:8px;z-index:100}
+.skip:focus{left:8px}
+:focus-visible{outline:2px solid var(--green);outline-offset:3px;border-radius:6px}
+
+h1,h2,h3{font-family:var(--display);font-stretch:118%;font-weight:800;line-height:.98;margin:0;letter-spacing:-.025em;text-transform:uppercase}
+h1{font-size:clamp(46px, 7.6vw, 112px)}
+h2{font-size:clamp(36px, 5vw, 70px)}
+h3{font-size:26px;line-height:1.05}
+.hl{background:var(--lime);color:var(--ink);padding:0 .12em;border-radius:.12em;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+.out{color:transparent;-webkit-text-stroke:2px currentColor}
+.eyebrow{display:inline-flex;align-items:center;gap:10px;font:600 12.5px/1 var(--sans);letter-spacing:.18em;text-transform:uppercase;color:var(--green)}
+.eyebrow::before{content:"";width:10px;height:10px;border-radius:3px;background:var(--lime);box-shadow:0 0 0 1px rgba(15,26,20,.25)}
+.lead{font-size:clamp(16.5px, 1.5vw, 19px);color:var(--ink-2);max-width:56ch}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:17px 26px;border-radius:14px;font:600 15px/1 var(--sans);text-decoration:none;border:1px solid transparent;cursor:pointer;transition:transform .3s var(--ease), background .3s, color .3s, border-color .3s, box-shadow .3s;white-space:nowrap}
+.btn svg{width:19px;height:19px;flex:none}
+.btn-lime{background:var(--lime);color:var(--ink)}
+.btn-lime:hover{background:var(--lime-2);transform:translateY(-2px);box-shadow:0 14px 28px -14px rgba(130,160,20,.8)}
+.btn-ink{background:var(--ink);color:var(--paper)}
+.btn-ink:hover{background:var(--green);transform:translateY(-2px)}
+.btn-wa{background:var(--wa);color:#fff}
+.btn-wa:hover{background:#178A45;transform:translateY(-2px)}
+.btn-line{border-color:rgba(15,26,20,.3);color:var(--ink)}
+.btn-line:hover{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.btn-line-l{border-color:rgba(244,243,236,.35);color:var(--paper)}
+.btn-line-l:hover{background:var(--paper);color:var(--ink)}
+
+/* Cabecera */
+.header{position:sticky;top:0;z-index:50}
+.header::before{content:"";position:absolute;inset:0;z-index:-2;opacity:0;background:rgba(243,242,236,.86);backdrop-filter:saturate(1.4) blur(14px);-webkit-backdrop-filter:saturate(1.4) blur(14px);box-shadow:0 1px 0 var(--line);transition:opacity .35s}
+.header.scrolled::before{opacity:1}
+.header .wrap{display:flex;align-items:center;justify-content:space-between;height:82px;gap:24px}
+.logo{display:flex;align-items:baseline;gap:10px;text-decoration:none;line-height:1}
+.logo b{font-family:var(--display);font-stretch:125%;font-weight:900;font-size:30px;letter-spacing:-.04em}
+.logo b i{font-style:normal;color:var(--green)}
+.logo small{font:600 10.5px/1.2 var(--sans);letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+.nav{display:flex;align-items:center;gap:28px}
+.nav a{text-decoration:none;font-size:14.5px;font-weight:500;position:relative;padding:6px 0}
+.nav a:not(.btn)::after{content:"";position:absolute;left:0;right:0;bottom:0;height:2px;background:var(--lime);transform:scaleX(0);transform-origin:right;transition:transform .4s var(--ease)}
+.nav a:not(.btn):hover::after{transform:scaleX(1);transform-origin:left}
+.nav .btn{padding:13px 18px;font-size:14px}
+.lang{display:flex;border:1px solid var(--line);border-radius:10px;padding:3px}
+.lang button{border:0;background:none;font:600 11.5px/1 var(--sans);letter-spacing:.08em;padding:7px 9px;border-radius:7px;cursor:pointer;color:var(--muted)}
+.lang button[aria-pressed="true"]{background:var(--ink);color:var(--lime)}
+.burger{display:none;width:46px;height:46px;border-radius:12px;border:1px solid var(--line);background:transparent;cursor:pointer;position:relative}
+.burger span,.burger span::before,.burger span::after{position:absolute;left:50%;width:18px;height:2px;background:var(--ink);transform:translateX(-50%);transition:.35s}
+.burger span{top:50%}
+.burger span::before{content:"";top:-6px}
+.burger span::after{content:"";top:6px}
+.menu-open .burger span{background:transparent}
+.menu-open .burger span::before{top:0;transform:translateX(-50%) rotate(45deg)}
+.menu-open .burger span::after{top:0;transform:translateX(-50%) rotate(-45deg)}
+
+/* Hero */
+.hero{padding:26px 0 90px;position:relative;overflow:hidden}
+.hero-top{display:flex;justify-content:space-between;align-items:center;gap:20px;margin-bottom:28px;flex-wrap:wrap}
+.open-pill{display:inline-flex;align-items:center;gap:10px;font-size:14px;font-weight:500;padding:9px 14px;border-radius:999px;background:var(--paper);border:1px solid var(--line)}
+.open-pill i{width:9px;height:9px;border-radius:50%;background:#2DB463;box-shadow:0 0 0 4px rgba(45,180,99,.18)}
+.open-pill.closed i{background:#D9634A;box-shadow:0 0 0 4px rgba(217,99,74,.18)}
+.hero h1{margin:0 0 34px;max-width:13ch}
+.hero-grid{display:grid;grid-template-columns:1fr 1.05fr;gap:56px;align-items:start}
+.hero .lead{margin:0 0 34px}
+.hero-ctas{display:flex;gap:12px;flex-wrap:wrap}
+.disc{display:flex;flex-wrap:wrap;gap:8px;margin-top:34px}
+.disc span{font-size:13.5px;font-weight:500;padding:8px 13px;border-radius:999px;background:var(--paper);border:1px solid var(--line)}
+.hero-media{display:grid;grid-template-columns:1.35fr 1fr;grid-template-rows:auto auto;gap:14px}
+.hero-media .m1{grid-row:span 2;border-radius:var(--radius);overflow:hidden;aspect-ratio:3/4;background:var(--sage)}
+.hero-media .m2{border-radius:var(--radius);overflow:hidden;aspect-ratio:1;background:var(--sage)}
+.hero-media img{width:100%;height:100%;object-fit:cover}
+.score{border-radius:var(--radius);background:var(--ink);color:var(--paper);padding:22px;display:flex;flex-direction:column;justify-content:space-between;aspect-ratio:1}
+.score b{font-family:var(--display);font-stretch:125%;font-weight:900;font-size:58px;line-height:.9;color:var(--lime)}
+.score .stars{color:var(--lime);letter-spacing:3px;font-size:14px}
+.score span{font-size:13.5px;color:#C9D1CB;line-height:1.35}
+
+/* Cinta */
+.ticker-wrap{overflow:hidden;padding:14px 0;margin-top:-14px}
+.ticker{background:var(--ink);color:var(--paper);overflow:hidden;transform:rotate(-1.2deg);margin:-10px -20px 0;position:relative;z-index:2}
+.ticker-track{display:flex;width:max-content;animation:marquee 32s linear infinite;padding:20px 0}
+.ticker span{font-family:var(--display);font-stretch:125%;font-weight:800;font-size:26px;text-transform:uppercase;letter-spacing:-.01em;padding:0 22px;white-space:nowrap}
+.ticker span::after{content:"✳";color:var(--lime);margin-left:44px;font-size:22px}
+@keyframes marquee{to{transform:translateX(-50%)}}
+
+section{position:relative}
+section[id]{scroll-margin-top:72px}
+.section{padding:clamp(84px, 11vw, 150px) 0}
+.head{display:grid;grid-template-columns:1.1fr .9fr;gap:50px;align-items:end;margin-bottom:60px}
+.head h2{margin-top:18px}
+.head .lead{margin:0}
+
+/* Servicios */
+.svc-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.svc{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;display:flex;flex-direction:column;transition:transform .45s var(--ease), box-shadow .45s}
+.svc:hover{transform:translateY(-6px);box-shadow:var(--shadow)}
+.svc figure{margin:0;aspect-ratio:4/3.4;overflow:hidden;position:relative;background:var(--sage)}
+.svc figure img{width:100%;height:100%;object-fit:cover;transition:transform 1.2s var(--ease)}
+.svc:hover figure img{transform:scale(1.06)}
+.svc .tag{position:absolute;left:14px;top:14px;background:var(--lime);font:700 11.5px/1 var(--sans);letter-spacing:.12em;text-transform:uppercase;padding:8px 10px;border-radius:8px}
+.svc .body{padding:24px 24px 26px;display:flex;flex-direction:column;flex:1}
+.svc h3{margin-bottom:12px;font-size:clamp(20px, 1.75vw, 24px);font-stretch:108%;overflow-wrap:anywhere}
+.svc p{margin:0 0 18px;color:var(--ink-2);font-size:15.5px}
+.svc ul{list-style:none;padding:0;margin:0 0 22px;display:grid;gap:7px}
+.svc li{display:flex;gap:9px;font-size:14.5px;color:var(--ink-2)}
+.svc li::before{content:"";width:6px;height:6px;border-radius:2px;background:var(--green);margin-top:9px;flex:none}
+.svc .btn{margin-top:auto;padding:14px 16px;font-size:14px}
+
+.soon{margin-top:22px;border-radius:var(--radius);background:var(--sage);padding:26px 30px;display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap}
+.soon .l{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+.soon .badge{background:var(--ink);color:var(--lime);font:700 11.5px/1 var(--sans);letter-spacing:.14em;text-transform:uppercase;padding:9px 12px;border-radius:8px}
+.soon b{font-family:var(--display);font-stretch:118%;font-weight:800;text-transform:uppercase;font-size:20px;letter-spacing:-.01em}
+.soon .items{display:flex;gap:8px;flex-wrap:wrap}
+.soon .items span{background:var(--paper);border-radius:999px;padding:8px 13px;font-size:14px;font-weight:500}
+
+/* Método */
+.method{background:var(--green);color:var(--paper);overflow:hidden}
+.method .eyebrow{color:var(--lime)}
+.method .eyebrow::before{box-shadow:none}
+.method h2 .hl{color:var(--ink)}
+.method .lead{color:#CFE0D6}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;counter-reset:s}
+.step{border:1px solid var(--line-d);border-radius:var(--radius);padding:30px 26px;background:rgba(255,255,255,.03);position:relative;transition:background .4s, border-color .4s}
+.step:hover{background:rgba(212,242,90,.08);border-color:rgba(212,242,90,.4)}
+.step .n{font-family:var(--display);font-stretch:125%;font-weight:900;font-size:64px;line-height:1;color:transparent;-webkit-text-stroke:1.5px var(--lime)}
+.step h3{font-size:22px;margin:18px 0 10px;color:var(--paper)}
+.step p{margin:0;color:#CFE0D6;font-size:15.5px}
+.method-note{margin-top:40px;display:flex;align-items:center;gap:18px;flex-wrap:wrap;color:#E7EFE9}
+.method-note b{font-family:var(--display);font-stretch:118%;text-transform:uppercase;font-size:20px;color:var(--lime)}
+
+/* Espacio */
+.space-grid{display:grid;grid-template-columns:repeat(12,1fr);grid-auto-rows:200px;gap:16px}
+.space-grid figure{margin:0;border-radius:var(--radius);overflow:hidden;background:var(--sage);position:relative}
+.space-grid img{width:100%;height:100%;object-fit:cover;transition:transform 1.2s var(--ease)}
+.space-grid figure:hover img{transform:scale(1.05)}
+.space-grid .a{grid-column:span 7;grid-row:span 2}
+.space-grid .b{grid-column:span 5}
+.space-grid .c{grid-column:span 5}
+.space-grid .d{grid-column:span 4}
+.space-grid .e{grid-column:span 4}
+.space-grid .f{grid-column:span 4;background:var(--lime);border-radius:var(--radius);display:flex;flex-direction:column;justify-content:space-between;padding:24px}
+.space-grid .f b{font-family:var(--display);font-stretch:125%;font-weight:900;font-size:44px;line-height:.95;text-transform:uppercase}
+.space-grid .f span{font-size:15px;font-weight:500}
+.space-grid figcaption{position:absolute;left:14px;bottom:14px;background:rgba(15,26,20,.82);color:var(--paper);font-size:13px;font-weight:500;padding:7px 11px;border-radius:8px;backdrop-filter:blur(6px)}
+
+/* Profesionales */
+.pros{background:var(--ink);color:var(--paper)}
+.pros-grid{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}
+.pros .eyebrow{color:var(--lime)}
+.pros .eyebrow::before{box-shadow:none}
+.pros h2{margin:18px 0 24px}
+.pros p{color:#C3CDC7;max-width:50ch}
+.perks{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:32px 0 36px}
+.perks div{border:1px solid var(--line-d);border-radius:16px;padding:18px}
+.perks svg{width:22px;height:22px;color:var(--lime)}
+.perks b{display:block;margin:10px 0 4px;font-weight:600}
+.perks span{font-size:14px;color:#AEB9B2;line-height:1.5;display:block}
+.pros-media{position:relative}
+.pros-media .img{border-radius:var(--radius);overflow:hidden;aspect-ratio:4/5}
+.pros-media img{width:100%;height:100%;object-fit:cover}
+.pros-quote{position:absolute;left:-40px;bottom:40px;background:var(--lime);color:var(--ink);border-radius:18px;padding:22px 24px;max-width:300px;box-shadow:var(--shadow)}
+.pros-quote p{margin:0 0 10px;color:var(--ink);font-weight:600;font-size:17px;line-height:1.35}
+.pros-quote span{font-size:13px;font-weight:500}
+
+/* Opiniones */
+.rev-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.rev{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);padding:30px;display:flex;flex-direction:column}
+.rev .stars{color:var(--green);letter-spacing:2px}
+.rev blockquote{margin:14px 0 24px;font-size:19px;line-height:1.45;font-weight:500;color:var(--ink)}
+.rev footer{margin-top:auto;display:flex;align-items:center;gap:12px;font-size:14px}
+.rev .av{width:40px;height:40px;border-radius:12px;background:var(--lime);display:grid;place-items:center;font-weight:700}
+.rev footer b{display:block;font-weight:600}
+.rev footer span{color:var(--muted);font-size:12.5px}
+.rev.big{grid-column:span 2;background:var(--sage);border-color:transparent}
+.rev.big blockquote{font-family:var(--display);font-stretch:112%;text-transform:uppercase;font-weight:800;font-size:clamp(24px, 2.6vw, 34px);line-height:1.05;letter-spacing:-.01em}
+.rev-cta{display:flex;justify-content:center;margin-top:34px}
+
+/* FAQ */
+.faq-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:80px}
+.faq h2{margin:18px 0 22px}
+.faq-list details{border-bottom:1px solid var(--line)}
+.faq-list details:first-child{border-top:1px solid var(--line)}
+.faq-list summary{list-style:none;cursor:pointer;padding:24px 56px 24px 0;position:relative;font-weight:600;font-size:19px;line-height:1.35}
+.faq-list summary::-webkit-details-marker{display:none}
+.faq-list summary::after{content:"+";position:absolute;right:0;top:50%;transform:translateY(-50%);width:38px;height:38px;border-radius:10px;background:var(--paper);border:1px solid var(--line);display:grid;place-items:center;font-size:22px;font-weight:400;transition:transform .3s, background .3s}
+.faq-list details[open] summary::after{content:"−";background:var(--lime)}
+.faq-list p{margin:0 0 24px;color:var(--ink-2);max-width:62ch}
+
+/* Contacto */
+.visit{background:var(--paper)}
+.visit-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:28px}
+.visit-card{background:var(--bg);border:1px solid var(--line);border-radius:var(--radius);padding:44px}
+.visit-card h2{font-size:clamp(34px,4vw,56px);margin:18px 0 28px}
+.row{display:flex;gap:16px;padding:16px 0;border-top:1px solid var(--line)}
+.row svg{width:22px;height:22px;color:var(--green);flex:none;margin-top:3px}
+.row a{text-decoration:none;font-weight:600}
+.row a:hover{text-decoration:underline;text-underline-offset:3px}
+.row small{display:block;color:var(--muted);font-size:14px}
+.hours{width:100%;border-collapse:collapse;font-size:15px}
+.hours td{padding:4px 0}
+.hours td:last-child{text-align:right;color:var(--ink-2)}
+.hours tr.today td{font-weight:700;color:var(--ink)}
+.hours tr.today td:last-child{color:var(--green)}
+.visit-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
+.map{border-radius:var(--radius);overflow:hidden;min-height:480px;position:relative;background:var(--sage);box-shadow:var(--shadow)}
+.map iframe{position:absolute;inset:0;width:100%;height:100%;border:0;filter:grayscale(.6) contrast(1.02)}
+
+/* Cierre */
+.final{background:var(--lime);padding:clamp(80px,10vw,130px) 0;overflow:hidden;position:relative}
+.final h2{font-size:clamp(44px, 8vw, 120px);max-width:12ch}
+.final .row2{display:flex;justify-content:space-between;align-items:end;gap:30px;flex-wrap:wrap;margin-top:34px}
+.final p{margin:0;max-width:44ch;font-size:18px;font-weight:500}
+.final .ctas{display:flex;gap:12px;flex-wrap:wrap}
+
+.footer{background:var(--ink);color:#AEB9B2;padding:76px 0 32px;font-size:15px}
+.footer .cols{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:40px}
+.footer .logo b{color:var(--paper)}
+.footer .logo b i{color:var(--lime)}
+.footer .logo small{color:#8E9A93}
+.footer h4{font:600 11.5px/1 var(--sans);letter-spacing:.2em;text-transform:uppercase;color:var(--lime);margin:8px 0 18px}
+.footer p{margin:0 0 8px}
+.footer a{text-decoration:none;color:#E7EFE9}
+.footer a:hover{text-decoration:underline;text-underline-offset:3px;color:#fff}
+.social{display:flex;gap:10px;margin-top:20px}
+.social a{width:42px;height:42px;border-radius:12px;border:1px solid var(--line-d);display:grid;place-items:center}
+.social a:hover{background:var(--lime);color:var(--ink);text-decoration:none}
+.social svg{width:18px;height:18px}
+.legal{margin-top:56px;padding-top:24px;border-top:1px solid var(--line-d);display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;font-size:13px;color:#7F8B84}
+.legal a{color:#AEB9B2;margin-right:18px}
+
+.wa-float{position:fixed;right:22px;bottom:22px;z-index:60;width:60px;height:60px;border-radius:18px;background:var(--wa);color:#fff;display:grid;place-items:center;box-shadow:0 18px 36px -12px rgba(31,168,85,.75);transition:transform .3s var(--ease)}
+.wa-float:hover{transform:scale(1.08) rotate(-4deg)}
+.wa-float svg{width:30px;height:30px}
+
+.reveal{opacity:0;transform:translateY(28px);transition:opacity .9s var(--ease), transform .9s var(--ease)}
+.reveal.in{opacity:1;transform:none}
+.d1{transition-delay:.08s}.d2{transition-delay:.16s}.d3{transition-delay:.24s}
+
+@media (prefers-reduced-motion: reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important}
+  .reveal{opacity:1;transform:none}
+  html{scroll-behavior:auto}
+}
+
+@media (max-width:1140px){
+  .svc-grid{grid-template-columns:repeat(2,1fr)}
+  .steps{grid-template-columns:repeat(2,1fr)}
+  .nav{gap:20px}
+}
+@media (max-width:980px){
+  .nav{position:fixed;inset:0;background:var(--bg);flex-direction:column;justify-content:center;gap:24px;transform:translateY(-100%);visibility:hidden;transition:transform .55s var(--ease), visibility 0s .55s;z-index:-1}
+  .menu-open .nav{transform:none;visibility:visible;transition:transform .55s var(--ease)}
+  .nav a{font-family:var(--display);font-stretch:118%;font-weight:800;text-transform:uppercase;font-size:30px}
+  .nav .btn{font-family:var(--sans);text-transform:none;font-size:15px;padding:16px 24px;font-stretch:100%}
+  .burger{display:block}
+  .hero-grid,.pros-grid,.faq-grid,.visit-grid,.head{grid-template-columns:1fr}
+  .head{gap:18px}
+  .hero-media{max-width:640px}
+  .rev-grid{grid-template-columns:1fr 1fr}
+  .rev.big{grid-column:span 2}
+  .space-grid{grid-template-columns:repeat(6,1fr);grid-auto-rows:170px}
+  .space-grid .a{grid-column:span 6;grid-row:span 2}
+  .space-grid .b,.space-grid .c{grid-column:span 3}
+  .space-grid .d,.space-grid .e,.space-grid .f{grid-column:span 2}
+  .pros-media{max-width:520px}
+  .pros-quote{left:-12px}
+  .footer .cols{grid-template-columns:1fr 1fr}
+}
+@media (max-width:640px){
+  :root{--wrap:calc(100% - 32px)}
+  body{font-size:16px}
+  h1{font-size:clamp(40px, 12vw, 60px)}
+  .header .wrap{height:72px}
+  .logo b{font-size:26px}
+  .logo small{display:none}
+  .lang{display:none}
+  .menu-open .lang{display:flex}
+  .hero-ctas .btn{flex:1 1 100%}
+  .score b{font-size:44px}
+  .svc-grid,.steps,.rev-grid{grid-template-columns:1fr}
+  .rev.big{grid-column:auto}
+  .space-grid{grid-template-columns:1fr 1fr;grid-auto-rows:150px}
+  .space-grid .a{grid-column:span 2;grid-row:span 2}
+  .space-grid .b,.space-grid .c,.space-grid .d,.space-grid .e{grid-column:span 1}
+  .space-grid .f{grid-column:span 2}
+  .space-grid .f b{font-size:34px}
+  .perks{grid-template-columns:1fr}
+  .pros-quote{position:relative;left:auto;bottom:auto;margin:-50px 14px 0;max-width:none}
+  .visit-card{padding:30px 22px}
+  .map{min-height:340px}
+  .footer .cols{grid-template-columns:1fr}
+  .ticker span{font-size:20px}
+  .wa-float{right:16px;bottom:16px;width:56px;height:56px}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main" data-i18n="skip">Saltar al contenido</a>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.22 8.22 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.25-8.24 2.2 0 4.27.86 5.83 2.42a8.18 8.18 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.24 8.23Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.16.25-.64.81-.78.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.13-.14.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.85-.86 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.06-.1-.22-.16-.47-.28Z"/></symbol>
+  <symbol id="i-ig" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.4" cy="6.6" r=".9" fill="currentColor" stroke="none"/></g></symbol>
+  <symbol id="i-tt" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" d="M14 3v11.5a3.5 3.5 0 1 1-3.5-3.5M14 3c.4 2.6 2.1 4.3 5 4.6"/></symbol>
+  <symbol id="i-fb" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" d="M14.5 8.5h2.5V5h-2.5A3.5 3.5 0 0 0 11 8.5V11H8.5v3.5H11V21h3.5v-6.5H17l.5-3.5h-3V9a.5.5 0 0 1 .5-.5Z"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21s-7-6.1-7-11.5a7 7 0 0 1 14 0C19 14.9 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></g></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></g></symbol>
+  <symbol id="i-metro" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="3" width="14" height="14" rx="3"/><path d="M5 11h14M8.5 21 10 17M15.5 21 14 17"/></g></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m-5-5 5 5-5 5"/></symbol>
+  <symbol id="i-room" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M4 21V5a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v16"/><path d="M2 21h20M15 12h.01"/></g></symbol>
+  <symbol id="i-db" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M6.5 6.5v11M17.5 6.5v11M3.5 9v6M20.5 9v6M6.5 12h11"/></g></symbol>
+  <symbol id="i-team" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="9" cy="8" r="3.2"/><path d="M3 20a6 6 0 0 1 12 0"/><circle cx="17" cy="9" r="2.6"/><path d="M15.5 14.2A5 5 0 0 1 21 19"/></g></symbol>
+  <symbol id="i-cal" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><rect x="3.5" y="5" width="17" height="15" rx="3"/><path d="M3.5 10h17M8 3v4M16 3v4"/></g></symbol>
+</svg>
+
+<header class="header" id="header">
+  <div class="wrap">
+    <a href="#inicio" class="logo" aria-label="hàbits health coworking, inicio"><b>h<i>à</i>bits</b><small>health<br>coworking</small></a>
+    <nav class="nav" id="nav" aria-label="Principal">
+      <a href="#servicios" data-i18n="nav.s">Servicios</a>
+      <a href="#metodo" data-i18n="nav.m">Método</a>
+      <a href="#espacio" data-i18n="nav.e">El espacio</a>
+      <a href="#profesionales" data-i18n="nav.p">Profesionales</a>
+      <a href="#contacto" data-i18n="nav.c">Contacto</a>
+      <div class="lang" role="group" aria-label="Idioma">
+        <button type="button" data-lang="es" aria-pressed="true">ES</button>
+        <button type="button" data-lang="ca" aria-pressed="false">CA</button>
+      </div>
+      <a class="btn btn-lime js-wa" href="https://wa.me/34649208786" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg><span data-i18n="nav.cta">Reserva tu sesión</span></a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav"><span></span></button>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="hero" id="inicio">
+  <div class="wrap">
+    <div class="hero-top reveal">
+      <span class="eyebrow" data-i18n="hero.eyebrow">Salud física · Eixample, Barcelona</span>
+      <span class="open-pill" id="openPill"><i></i><span id="openText">—</span></span>
+    </div>
+    <h1 class="reveal d1" data-i18n="hero.title">Muévete mejor. <span class="hl">Vive sin dolor.</span></h1>
+    <div class="hero-grid">
+      <div>
+        <p class="lead reveal d2" data-i18n="hero.lead">En hàbits reunimos a fisioterapeutas, entrenadores personales, osteópatas y nutricionistas en un mismo espacio. Trabajan juntos para que te recuperes antes, rindas más y conviertas el cuidarte en un hábito.</p>
+        <div class="hero-ctas reveal d3">
+          <a class="btn btn-ink js-wa" href="https://wa.me/34649208786" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg><span data-i18n="hero.cta1">Reserva por WhatsApp</span></a>
+          <a class="btn btn-line" href="#servicios"><span data-i18n="hero.cta2">Ver servicios</span><svg><use href="#i-arrow"/></svg></a>
+        </div>
+        <div class="disc reveal d3">
+          <span data-i18n="d1">Fisioterapia</span><span data-i18n="d2">Entrenamiento personal</span><span data-i18n="d3">Osteopatía</span><span data-i18n="d4">Nutrición</span>
+        </div>
+      </div>
+      <div class="hero-media reveal d2">
+        <div class="m1"><img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&w=900&q=80" alt="Entrenador corrigiendo un ejercicio a una clienta" fetchpriority="high"></div>
+        <div class="m2"><img src="https://images.unsplash.com/photo-1645005512968-0c1fe99f0093?auto=format&fit=crop&w=600&q=80" alt="Fisioterapeuta tratando un hombro"></div>
+        <div class="score">
+          <b>4,9</b>
+          <div><div class="stars" aria-label="5 estrellas">★★★★★</div><span data-i18n="hero.score">61 opiniones en Google</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="ticker-wrap" aria-hidden="true"><div class="ticker"><div class="ticker-track" id="ticker"></div></div></div>
+
+<!-- SERVICIOS -->
+<section class="section" id="servicios">
+  <div class="wrap">
+    <div class="head">
+      <div>
+        <span class="eyebrow reveal" data-i18n="sv.eyebrow">Servicios</span>
+        <h2 class="reveal d1" data-i18n="sv.title">Cuatro especialidades, <span class="hl">un mismo equipo</span></h2>
+      </div>
+      <p class="lead reveal d2" data-i18n="sv.lead">Elige por dónde empezar. Si no lo tienes claro, escríbenos, cuéntanos qué te pasa o qué buscas y te orientamos hacia el profesional adecuado.</p>
+    </div>
+    <div class="svc-grid">
+      <article class="svc reveal">
+        <figure><img loading="lazy" src="https://images.unsplash.com/photo-1706353399656-210cca727a33?auto=format&fit=crop&w=700&q=80" alt="Fisioterapeuta trabajando la movilidad de la pierna de un paciente"><span class="tag">01</span></figure>
+        <div class="body">
+          <h3 data-i18n="s1.t">Fisioterapia</h3>
+          <p data-i18n="s1.p">Tratamos el dolor y las lesiones desde la causa, no solo el síntoma.</p>
+          <ul><li data-i18n="s1.a">Dolor de espalda, cuello y hombro</li><li data-i18n="s1.b">Lesiones deportivas y tendinopatías</li><li data-i18n="s1.c">Readaptación tras una lesión</li></ul>
+          <a class="btn btn-ink js-wa" data-msg="fisio" href="https://wa.me/34649208786" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg><span data-i18n="s.cta">Reservar</span></a>
+        </div>
+      </article>
+      <article class="svc reveal d1">
+        <figure><img loading="lazy" src="https://images.unsplash.com/photo-1648542036561-e1d66a5ae2b1?auto=format&fit=crop&w=700&q=80" alt="Entrenador personal guiando una sentadilla"><span class="tag">02</span></figure>
+        <div class="body">
+          <h3 data-i18n="s2.t">Entrenamiento personal</h3>
+          <p data-i18n="s2.p">Un plan hecho para ti y un entrenador a tu lado en cada sesión.</p>
+          <ul><li data-i18n="s2.a">Fuerza y composición corporal</li><li data-i18n="s2.b">Rendimiento deportivo</li><li data-i18n="s2.c">Volver a entrenar sin miedo a lesionarte</li></ul>
+          <a class="btn btn-ink js-wa" data-msg="entreno" href="https://wa.me/34649208786" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg><span data-i18n="s.cta">Reservar</span></a>
+        </div>
+      </article>
+      <article class="svc reveal d2">
+        <figure><img loading="lazy" src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&w=700&q=80" alt="Manos de osteópata trabajando la espalda"><span class="tag">03</span></figure>
+        <div class="body">
+          <h3 data-i18n="s3.t">Osteopatía</h3>
+          <p data-i18n="s3.p">Un enfoque global del cuerpo para recuperar la movilidad y el equilibrio.</p>
+          <ul><li data-i18n="s3.a">Tensiones y bloqueos</li><li data-i18n="s3.b">Dolor crónico</li><li data-i18n="s3.c">Complemento a la fisioterapia</li></ul>
+          <a class="btn btn-ink js-wa" data-msg="osteo" href="https://wa.me/34649208786" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg><span data-i18n="s.cta">Reservar</span></a>
+        </div>
+      </article>
+      <article class="svc reveal d3">
+        <figure><img loading="lazy" src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=700&q=80" alt="Comida saludable y equilibrada sobre la mesa"><span class="tag">04</span></figure>
+        <div class="body">
+          <h3 data-i18n="s4.t">Nutrición</h3>
+          <p data-i18n="s4.p">Comer bien sin dietas imposibles, coordinado con tu entrenamiento.</p>
+          <ul><li data-i18n="s4.a">Pérdida de grasa y ganancia muscular</li><li data-i18n="s4.b">Nutrición deportiva</li><li data-i18n="s4.c">Hábitos que se mantienen</li></ul>
+          <a class="btn btn-ink js-wa" data-msg="nutri" href="https://wa.me/34649208786" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg><span data-i18n="s.cta">Reservar</span></a>
+        </div>
+      </article>
+    </div>
+    <div class="soon reveal">
+      <div class="l"><span class="badge" data-i18n="soon.b">Muy pronto</span><b data-i18n="soon.t">Nuevos servicios</b>
+        <div class="items"><span data-i18n="soon.1">Entrenamientos grupales</span><span data-i18n="soon.2">Sala de recuperación</span><span data-i18n="soon.3">Entrenamiento libre</span></div>
+      </div>
+      <a class="btn btn-ink js-wa" data-msg="soon" href="https://wa.me/34649208786" target="_blank" rel="noopener"><span data-i18n="soon.cta">Avísame cuando abra</span><svg><use href="#i-arrow"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<!-- MÉTODO -->
+<section class="section method" id="metodo">
+  <div class="wrap">
+    <div class="head">
+      <div>
+        <span class="eyebrow reveal" data-i18n="me.eyebrow">El método hàbits</span>
+        <h2 class="reveal d1" data-i18n="me.title">De la lesión <span class="hl">al hábito</span></h2>
+      </div>
+      <p class="lead reveal d2" data-i18n="me.lead">La ventaja de tenerlo todo bajo el mismo techo: tu fisio, tu entrenador y tu nutricionista hablan entre ellos. Sin empezar de cero cada vez.</p>
+    </div>
+    <div class="steps">
+      <div class="step reveal"><div class="n">01</div><h3 data-i18n="m1.t">Valoración</h3><p data-i18n="m1.p">Escuchamos qué te pasa y qué quieres conseguir, y valoramos cómo te mueves.</p></div>
+      <div class="step reveal d1"><div class="n">02</div><h3 data-i18n="m2.t">Tratamiento</h3><p data-i18n="m2.p">Si hay dolor o lesión, empezamos por la fisioterapia o la osteopatía.</p></div>
+      <div class="step reveal d2"><div class="n">03</div><h3 data-i18n="m3.t">Entrenamiento</h3><p data-i18n="m3.p">Readaptamos y fortalecemos para que vuelvas a moverte mejor que antes.</p></div>
+      <div class="step reveal d3"><div class="n">04</div><h3 data-i18n="m4.t">Hábitos</h3><p data-i18n="m4.p">Nutrición y rutina para que el resultado dure. Por eso nos llamamos hàbits.</p></div>
+    </div>
+    <div class="method-note reveal"><b data-i18n="me.note.b">¿No sabes por dónde empezar?</b><span data-i18n="me.note.s">Escríbenos y te decimos qué profesional te conviene.</span></div>
+  </div>
+</section>
+
+<!-- ESPACIO -->
+<section class="section" id="espacio">
+  <div class="wrap">
+    <div class="head">
+      <div>
+        <span class="eyebrow reveal" data-i18n="es.eyebrow">El espacio</span>
+        <h2 class="reveal d1" data-i18n="es.title">Bienvenido a la <span class="hl">Health Cave</span></h2>
+      </div>
+      <p class="lead reveal d2" data-i18n="es.lead">Nuestra zona de entrenamiento en pleno Eixample: material de calidad, buen ambiente y profesionales que te conocen por tu nombre.</p>
+    </div>
+    <div class="space-grid">
+      <figure class="a reveal"><img loading="lazy" src="https://images.unsplash.com/photo-1597076537061-a6b58163aa45?auto=format&fit=crop&w=1100&q=80" alt="Zona de mancuernas del centro"><figcaption data-i18n="es.c1">Zona de fuerza</figcaption></figure>
+      <figure class="b reveal d1"><img loading="lazy" src="https://images.unsplash.com/photo-1597076545399-91a3ff0e71b3?auto=format&fit=crop&w=800&q=80" alt="Kettlebells preparadas para entrenar"></figure>
+      <figure class="c reveal d2"><img loading="lazy" src="https://images.unsplash.com/photo-1645005512942-a17817fb7c11?auto=format&fit=crop&w=800&q=80" alt="Ejercicio de readaptación con banda elástica"><figcaption data-i18n="es.c2">Readaptación</figcaption></figure>
+      <figure class="d reveal"><img loading="lazy" src="https://images.unsplash.com/photo-1584466977773-e625c37cdd50?auto=format&fit=crop&w=700&q=80" alt="Entrenamiento de fuerza supervisado en banco"></figure>
+      <figure class="e reveal d1"><img loading="lazy" src="https://images.unsplash.com/photo-1519824145371-296894a0daa9?auto=format&fit=crop&w=700&q=80" alt="Sesión de terapia manual"><figcaption data-i18n="es.c3">Sala de tratamiento</figcaption></figure>
+      <div class="f reveal d2"><b>7:00 – 21:00</b><span data-i18n="es.hours">Abierto de lunes a viernes, en Muntaner 52.</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- PROFESIONALES -->
+<section class="section pros" id="profesionales">
+  <div class="wrap pros-grid">
+    <div>
+      <span class="eyebrow reveal" data-i18n="pr.eyebrow">Para profesionales</span>
+      <h2 class="reveal d1" data-i18n="pr.title">¿Eres profesional de la salud? <span class="hl">Trabaja en hàbits</span></h2>
+      <p class="reveal d2" data-i18n="pr.p">Somos un coworking pensado para fisioterapeutas, entrenadores, osteópatas y nutricionistas. Atiende a tus clientes en un espacio cuidado, con todo el material que necesitas y un equipo con el que colaborar.</p>
+      <div class="perks">
+        <div class="reveal"><svg><use href="#i-room"/></svg><b data-i18n="pk1.t">Salas y zona de entreno</b><span data-i18n="pk1.s">Un espacio profesional para tus sesiones.</span></div>
+        <div class="reveal d1"><svg><use href="#i-db"/></svg><b data-i18n="pk2.t">Material de calidad</b><span data-i18n="pk2.s">Todo a tu disposición, sin invertir tú.</span></div>
+        <div class="reveal d2"><svg><use href="#i-team"/></svg><b data-i18n="pk3.t">Comunidad</b><span data-i18n="pk3.s">Deriva y recibe clientes de otros profesionales.</span></div>
+        <div class="reveal d3"><svg><use href="#i-cal"/></svg><b data-i18n="pk4.t">Horario amplio</b><span data-i18n="pk4.s">De 7:00 a 21:00, para que encaje con tu agenda.</span></div>
+      </div>
+      <a class="btn btn-lime js-wa reveal" data-msg="pro" href="https://wa.me/34649208786" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg><span data-i18n="pr.cta">Quiero trabajar en hàbits</span></a>
+    </div>
+    <div class="pros-media reveal d1">
+      <div class="img"><img loading="lazy" src="https://images.unsplash.com/photo-1645005513713-9e2b92a687d3?auto=format&fit=crop&w=900&q=80" alt="Profesional de la salud trabajando con un paciente"></div>
+      <div class="pros-quote"><p>“Buen sitio para, como profesional, atender a tus clientes.”</p><span data-i18n="pr.q">Reseña en Google</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- OPINIONES -->
+<section class="section" id="opiniones">
+  <div class="wrap">
+    <div class="head">
+      <div>
+        <span class="eyebrow reveal" data-i18n="rv.eyebrow">Opiniones</span>
+        <h2 class="reveal d1" data-i18n="rv.title">4,9 <span class="hl">en Google</span></h2>
+      </div>
+      <p class="lead reveal d2" data-i18n="rv.lead">61 opiniones de personas que entrenan, se recuperan y trabajan con nosotros.</p>
+    </div>
+    <div class="rev-grid">
+      <article class="rev big reveal"><div class="stars">★★★★★</div><blockquote>Increíbles profesionales, super buen ambiente y las instalaciones son brutales.</blockquote><footer><span class="av">G</span><div><b data-i18n="rv.u">Usuario de Google</b><span data-i18n="rv.g">Reseña en Google</span></div></footer></article>
+      <article class="rev reveal d1"><div class="stars">★★★★★</div><blockquote>El mejor centro de entrenamiento de Barcelona.</blockquote><footer><span class="av">L</span><div><b>Laura G.</b><span data-i18n="rv.g">Reseña en Google</span></div></footer></article>
+      <article class="rev reveal"><div class="stars">★★★★★</div><blockquote>Gracias a Oriol Alvarez, por fin estoy sin dolor.</blockquote><footer><span class="av">N</span><div><b>Nelly P.</b><span data-i18n="rv.g">Reseña en Google</span></div></footer></article>
+      <article class="rev reveal d1"><div class="stars">★★★★★</div><blockquote>Grandes profesionales dispuestos siempre a darte el mejor asesoramiento.</blockquote><footer><span class="av">G</span><div><b data-i18n="rv.u">Usuario de Google</b><span data-i18n="rv.g">Reseña en Google</span></div></footer></article>
+      <article class="rev reveal d2"><div class="stars">★★★★★</div><blockquote>Se puede trabajar muy bien, teniendo mucho material a tu disposición.</blockquote><footer><span class="av">S</span><div><b>Silvia F.</b><span data-i18n="rv.g">Reseña en Google</span></div></footer></article>
+    </div>
+    <div class="rev-cta reveal"><a class="btn btn-line" href="https://www.google.com/maps/search/?api=1&query=h%C3%A0bits%20health%20coworking%20Muntaner%2052%20Barcelona" target="_blank" rel="noopener"><span data-i18n="rv.cta">Leer todas las opiniones</span><svg><use href="#i-arrow"/></svg></a></div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section faq" id="faq" style="padding-top:0">
+  <div class="wrap faq-grid">
+    <div>
+      <span class="eyebrow reveal" data-i18n="fq.eyebrow">Preguntas frecuentes</span>
+      <h2 class="reveal d1" data-i18n="fq.title">Antes de <span class="hl">venir</span></h2>
+      <p class="lead reveal d2" data-i18n="fq.lead">¿Otra duda? Escríbenos por WhatsApp y te respondemos.</p>
+    </div>
+    <div class="faq-list reveal">
+      <details open><summary data-i18n="fq1.q">¿Cómo reservo una sesión?</summary><p data-i18n="fq1.a">Escríbenos por WhatsApp al 649 20 87 86, cuéntanos qué necesitas y te damos hora con el profesional adecuado.</p></details>
+      <details><summary data-i18n="fq2.q">¿Puedo combinar fisioterapia y entrenamiento?</summary><p data-i18n="fq2.a">Sí, y es justo lo que nos diferencia. Tu fisio y tu entrenador trabajan en el mismo espacio y se coordinan para que pases de la recuperación al entrenamiento sin perder el hilo.</p></details>
+      <details><summary data-i18n="fq3.q">Nunca he entrenado, ¿es para mí?</summary><p data-i18n="fq3.a">Por supuesto. Empezamos desde tu nivel, sea cual sea, y vamos progresando contigo paso a paso.</p></details>
+      <details><summary data-i18n="fq4.q">¿Qué tengo que traer a la primera sesión?</summary><p data-i18n="fq4.a">Ropa cómoda para moverte y, si tienes informes o pruebas de una lesión, tráelos: nos ayudan a valorarte mejor.</p></details>
+      <details><summary data-i18n="fq5.q">Soy profesional, ¿cómo funciona el coworking?</summary><p data-i18n="fq5.a">Escríbenos y te explicamos las opciones para trabajar en hàbits con tus propios clientes.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACTO -->
+<section class="section visit" id="contacto">
+  <div class="wrap visit-grid">
+    <div class="visit-card reveal">
+      <span class="eyebrow" data-i18n="vi.eyebrow">Contacto</span>
+      <h2 data-i18n="vi.title">Ven a <span class="hl">conocernos</span></h2>
+      <div class="row"><svg><use href="#i-pin"/></svg><div><a href="https://www.google.com/maps/dir/?api=1&destination=Carrer%20de%20Muntaner%2052%2C%2008011%20Barcelona" target="_blank" rel="noopener">Carrer de Muntaner, 52 · Local dreta</a><small>Eixample · 08011 Barcelona</small></div></div>
+      <div class="row"><svg><use href="#i-metro"/></svg><div><span data-i18n="vi.metro">Metro Universitat (L1, L2) y Urgell (L1)</span><small data-i18n="vi.metro2">A pocos minutos a pie</small></div></div>
+      <div class="row"><svg><use href="#i-wa"/></svg><div><a class="js-wa" href="https://wa.me/34649208786" target="_blank" rel="noopener">649 20 87 86</a><small data-i18n="vi.wa">WhatsApp y llamadas</small></div></div>
+      <div class="row"><svg><use href="#i-clock"/></svg><table class="hours" id="hours" aria-label="Horario"></table></div>
+      <div class="visit-actions">
+        <a class="btn btn-wa js-wa" href="https://wa.me/34649208786" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg><span data-i18n="vi.cta">Escríbenos</span></a>
+        <a class="btn btn-line" href="https://www.google.com/maps/dir/?api=1&destination=Carrer%20de%20Muntaner%2052%2C%2008011%20Barcelona" target="_blank" rel="noopener"><svg><use href="#i-pin"/></svg><span data-i18n="vi.route">Cómo llegar</span></a>
+      </div>
+    </div>
+    <div class="map reveal d1">
+      <iframe title="Mapa: hàbits health coworking, Muntaner 52" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=h%C3%A0bits%20health%20coworking%2C%20Carrer%20de%20Muntaner%2052%2C%20Barcelona&z=16&output=embed"></iframe>
+    </div>
+  </div>
+</section>
+
+<section class="final">
+  <div class="wrap">
+    <h2 class="reveal" data-i18n="fi.title">Tu mejor hábito empieza hoy.</h2>
+    <div class="row2">
+      <p class="reveal d1" data-i18n="fi.p">Cuéntanos qué te pasa o qué quieres conseguir y te ponemos con el profesional adecuado.</p>
+      <div class="ctas reveal d2">
+        <a class="btn btn-ink js-wa" href="https://wa.me/34649208786" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg><span data-i18n="fi.cta">Reserva por WhatsApp</span></a>
+        <a class="btn btn-line" href="https://www.instagram.com/habitshealthcoworking/" target="_blank" rel="noopener"><svg><use href="#i-ig"/></svg>@habitshealthcoworking</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <a href="#inicio" class="logo"><b>h<i>à</i>bits</b><small>health<br>coworking</small></a>
+        <p style="margin-top:20px;max-width:34ch" data-i18n="ft.about">Fisioterapia, entrenamiento personal, osteopatía y nutrición en un mismo espacio, en el Eixample de Barcelona.</p>
+        <div class="social">
+          <a href="https://www.instagram.com/habitshealthcoworking/" target="_blank" rel="noopener" aria-label="Instagram"><svg><use href="#i-ig"/></svg></a>
+          <a href="https://www.tiktok.com/@habitshealthcoworking" target="_blank" rel="noopener" aria-label="TikTok"><svg><use href="#i-tt"/></svg></a>
+          <a href="https://www.facebook.com/Habitshealthcoworking/" target="_blank" rel="noopener" aria-label="Facebook"><svg><use href="#i-fb"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h4 data-i18n="ft.c">Contacto</h4>
+        <p><a class="js-wa" href="https://wa.me/34649208786" target="_blank" rel="noopener">WhatsApp · 649 20 87 86</a></p>
+        <p>Carrer de Muntaner, 52<br>08011 Barcelona</p>
+      </div>
+      <div>
+        <h4 data-i18n="ft.h">Horario</h4>
+        <p data-i18n="ft.h1">Lunes a viernes 7:00–21:00</p>
+        <p data-i18n="ft.h2">Sábados 9:00–21:00</p>
+      </div>
+      <div>
+        <h4 data-i18n="ft.m">Menú</h4>
+        <p><a href="#servicios" data-i18n="nav.s">Servicios</a></p>
+        <p><a href="#espacio" data-i18n="nav.e">El espacio</a></p>
+        <p><a href="#profesionales" data-i18n="nav.p">Profesionales</a></p>
+        <p><a href="#faq" data-i18n="ft.f">Preguntas frecuentes</a></p>
+      </div>
+    </div>
+    <div class="legal">
+      <div><a href="#" data-i18n="ft.l1">Aviso legal</a><a href="#" data-i18n="ft.l2">Privacidad</a><a href="#" data-i18n="ft.l3">Cookies</a></div>
+      <div>© <span id="year">2026</span> hàbits health coworking · <span data-i18n="ft.by">Diseño web:</span> Mystic</div>
+    </div>
+  </div>
+</footer>
+
+<a class="wa-float js-wa" href="https://wa.me/34649208786" target="_blank" rel="noopener" aria-label="Escribir por WhatsApp"><svg><use href="#i-wa"/></svg></a>
+
+<script>
+(function(){
+  var PHONE="34649208786";
+  var CA={
+    "skip":"Salta al contingut",
+    "nav.s":"Serveis","nav.m":"Mètode","nav.e":"L'espai","nav.p":"Professionals","nav.c":"Contacte","nav.cta":"Reserva la teva sessió",
+    "hero.eyebrow":"Salut física · Eixample, Barcelona",
+    "hero.title":"Mou-te millor. <span class=\"hl\">Viu sense dolor.</span>",
+    "hero.lead":"A hàbits reunim fisioterapeutes, entrenadors personals, osteòpates i nutricionistes en un mateix espai. Treballen junts perquè et recuperis abans, rendeixis més i converteixis cuidar-te en un hàbit.",
+    "hero.cta1":"Reserva per WhatsApp","hero.cta2":"Veure serveis","hero.score":"61 opinions a Google",
+    "d1":"Fisioteràpia","d2":"Entrenament personal","d3":"Osteopatia","d4":"Nutrició",
+    "sv.eyebrow":"Serveis","sv.title":"Quatre especialitats, <span class=\"hl\">un mateix equip</span>",
+    "sv.lead":"Tria per on començar. Si no ho tens clar, escriu-nos, explica'ns què et passa o què busques i t'orientem cap al professional adequat.",
+    "s1.t":"Fisioteràpia","s1.p":"Tractem el dolor i les lesions des de la causa, no només el símptoma.","s1.a":"Dolor d'esquena, coll i espatlla","s1.b":"Lesions esportives i tendinopaties","s1.c":"Readaptació després d'una lesió",
+    "s2.t":"Entrenament personal","s2.p":"Un pla fet per a tu i un entrenador al teu costat a cada sessió.","s2.a":"Força i composició corporal","s2.b":"Rendiment esportiu","s2.c":"Tornar a entrenar sense por de lesionar-te",
+    "s3.t":"Osteopatia","s3.p":"Un enfocament global del cos per recuperar la mobilitat i l'equilibri.","s3.a":"Tensions i bloquejos","s3.b":"Dolor crònic","s3.c":"Complement a la fisioteràpia",
+    "s4.t":"Nutrició","s4.p":"Menjar bé sense dietes impossibles, coordinat amb el teu entrenament.","s4.a":"Pèrdua de greix i guany muscular","s4.b":"Nutrició esportiva","s4.c":"Hàbits que es mantenen",
+    "s.cta":"Reservar",
+    "soon.b":"Molt aviat","soon.t":"Nous serveis","soon.1":"Entrenaments grupals","soon.2":"Sala de recuperació","soon.3":"Entrenament lliure","soon.cta":"Avisa'm quan obri",
+    "me.eyebrow":"El mètode hàbits","me.title":"De la lesió <span class=\"hl\">a l'hàbit</span>",
+    "me.lead":"L'avantatge de tenir-ho tot sota el mateix sostre: el teu fisio, el teu entrenador i el teu nutricionista parlen entre ells. Sense començar de zero cada vegada.",
+    "m1.t":"Valoració","m1.p":"Escoltem què et passa i què vols aconseguir, i valorem com et mous.",
+    "m2.t":"Tractament","m2.p":"Si hi ha dolor o lesió, comencem per la fisioteràpia o l'osteopatia.",
+    "m3.t":"Entrenament","m3.p":"Readaptem i enfortim perquè et tornis a moure millor que abans.",
+    "m4.t":"Hàbits","m4.p":"Nutrició i rutina perquè el resultat duri. Per això ens diem hàbits.",
+    "me.note.b":"No saps per on començar?","me.note.s":"Escriu-nos i et diem quin professional et convé.",
+    "es.eyebrow":"L'espai","es.title":"Benvingut a la <span class=\"hl\">Health Cave</span>",
+    "es.lead":"La nostra zona d'entrenament en ple Eixample: material de qualitat, bon ambient i professionals que et coneixen pel teu nom.",
+    "es.c1":"Zona de força","es.c2":"Readaptació","es.c3":"Sala de tractament","es.hours":"Obert de dilluns a divendres, a Muntaner 52.",
+    "pr.eyebrow":"Per a professionals","pr.title":"Ets professional de la salut? <span class=\"hl\">Treballa a hàbits</span>",
+    "pr.p":"Som un coworking pensat per a fisioterapeutes, entrenadors, osteòpates i nutricionistes. Atén els teus clients en un espai cuidat, amb tot el material que necessites i un equip amb qui col·laborar.",
+    "pk1.t":"Sales i zona d'entrenament","pk1.s":"Un espai professional per a les teves sessions.","pk2.t":"Material de qualitat","pk2.s":"Tot a la teva disposició, sense invertir-hi tu.","pk3.t":"Comunitat","pk3.s":"Deriva i rep clients d'altres professionals.","pk4.t":"Horari ampli","pk4.s":"De 7:00 a 21:00, perquè encaixi amb la teva agenda.",
+    "pr.cta":"Vull treballar a hàbits","pr.q":"Ressenya a Google",
+    "rv.eyebrow":"Opinions","rv.title":"4,9 <span class=\"hl\">a Google</span>","rv.lead":"61 opinions de persones que entrenen, es recuperen i treballen amb nosaltres.","rv.u":"Usuari de Google","rv.g":"Ressenya a Google","rv.cta":"Llegir totes les opinions",
+    "fq.eyebrow":"Preguntes freqüents","fq.title":"Abans de <span class=\"hl\">venir</span>","fq.lead":"Un altre dubte? Escriu-nos per WhatsApp i et responem.",
+    "fq1.q":"Com reservo una sessió?","fq1.a":"Escriu-nos per WhatsApp al 649 20 87 86, explica'ns què necessites i et donem hora amb el professional adequat.",
+    "fq2.q":"Puc combinar fisioteràpia i entrenament?","fq2.a":"Sí, i és just el que ens diferencia. El teu fisio i el teu entrenador treballen al mateix espai i es coordinen perquè passis de la recuperació a l'entrenament sense perdre el fil.",
+    "fq3.q":"No he entrenat mai, és per a mi?","fq3.a":"És clar que sí. Comencem des del teu nivell, sigui quin sigui, i anem progressant amb tu pas a pas.",
+    "fq4.q":"Què he de portar a la primera sessió?","fq4.a":"Roba còmoda per moure't i, si tens informes o proves d'una lesió, porta'ls: ens ajuden a valorar-te millor.",
+    "fq5.q":"Soc professional, com funciona el coworking?","fq5.a":"Escriu-nos i t'expliquem les opcions per treballar a hàbits amb els teus propis clients.",
+    "vi.eyebrow":"Contacte","vi.title":"Vine a <span class=\"hl\">conèixer-nos</span>","vi.metro":"Metro Universitat (L1, L2) i Urgell (L1)","vi.metro2":"A pocs minuts a peu","vi.wa":"WhatsApp i trucades","vi.cta":"Escriu-nos","vi.route":"Com arribar-hi",
+    "fi.title":"El teu millor hàbit comença avui.","fi.p":"Explica'ns què et passa o què vols aconseguir i et posem amb el professional adequat.","fi.cta":"Reserva per WhatsApp",
+    "ft.about":"Fisioteràpia, entrenament personal, osteopatia i nutrició en un mateix espai, a l'Eixample de Barcelona.","ft.c":"Contacte","ft.h":"Horari","ft.h1":"Dilluns a divendres 7:00–21:00","ft.h2":"Dissabtes 9:00–21:00","ft.m":"Menú","ft.f":"Preguntes freqüents","ft.l1":"Avís legal","ft.l2":"Privacitat","ft.l3":"Galetes","ft.by":"Disseny web:"
+  };
+  var MSG={
+    es:{base:"¡Hola! Vengo de vuestra web y me gustaría reservar una sesión 💪",fisio:"¡Hola! Vengo de vuestra web y me gustaría reservar una sesión de fisioterapia.",entreno:"¡Hola! Vengo de vuestra web y me interesa el entrenamiento personal.",osteo:"¡Hola! Vengo de vuestra web y me gustaría reservar una sesión de osteopatía.",nutri:"¡Hola! Vengo de vuestra web y me interesa la nutrición.",soon:"¡Hola! Avisadme cuando abráis los entrenamientos grupales y la sala de recuperación 🙌",pro:"¡Hola! Soy profesional de la salud y me interesa trabajar en hàbits. ¿Me contáis cómo funciona?"},
+    ca:{base:"Hola! Vinc de la vostra web i m'agradaria reservar una sessió 💪",fisio:"Hola! Vinc de la vostra web i m'agradaria reservar una sessió de fisioteràpia.",entreno:"Hola! Vinc de la vostra web i m'interessa l'entrenament personal.",osteo:"Hola! Vinc de la vostra web i m'agradaria reservar una sessió d'osteopatia.",nutri:"Hola! Vinc de la vostra web i m'interessa la nutrició.",soon:"Hola! Aviseu-me quan obriu els entrenaments grupals i la sala de recuperació 🙌",pro:"Hola! Soc professional de la salut i m'interessa treballar a hàbits. M'expliqueu com funciona?"}
+  };
+  var HOURS={1:[[420,1260]],2:[[420,1260]],3:[[420,1260]],4:[[420,1260]],5:[[420,1260]],6:[[540,1260]],0:[]};
+  var DAYS={es:["Domingo","Lunes","Martes","Miércoles","Jueves","Viernes","Sábado"],ca:["Diumenge","Dilluns","Dimarts","Dimecres","Dijous","Divendres","Dissabte"]};
+  var T={es:{closed:"Cerrado",open:"Abierto ahora · hasta las ",cl:"Cerrado ahora · abre ",today:"hoy a las ",tom:"mañana a las ",at:" a las ",menu:"Abrir menú",close:"Cerrar menú"},
+         ca:{closed:"Tancat",open:"Obert ara · fins a les ",cl:"Tancat ara · obre ",today:"avui a les ",tom:"demà a les ",at:" a les ",menu:"Obre el menú",close:"Tanca el menú"}};
+
+  var lang="es";
+  try{ lang=localStorage.getItem("habits-lang") || ((navigator.language||"").slice(0,2)==="ca"?"ca":"es"); }catch(e){}
+
+  function fmt(m){ var h=Math.floor(m/60), mi=m%60; return h+":"+(mi<10?"0":"")+mi; }
+  function now(){
+    var p=new Intl.DateTimeFormat("en-GB",{timeZone:"Europe/Madrid",weekday:"short",hour:"2-digit",minute:"2-digit",hour12:false}).formatToParts(new Date()), o={};
+    p.forEach(function(x){o[x.type]=x.value;});
+    return {d:["Sun","Mon","Tue","Wed","Thu","Fri","Sat"].indexOf(o.weekday), m:(parseInt(o.hour,10)%24)*60+parseInt(o.minute,10)};
+  }
+  function renderHours(){
+    var n=now(), t=T[lang], rows="";
+    [1,2,3,4,5,6,0].forEach(function(d){
+      var r=HOURS[d], v=r.length? r.map(function(s){return fmt(s[0])+"–"+fmt(s[1]);}).join(" · ") : t.closed;
+      rows+='<tr class="'+(d===n.d?"today":"")+'"><td>'+DAYS[lang][d]+'</td><td>'+v+'</td></tr>';
+    });
+    document.getElementById("hours").innerHTML=rows;
+    var open=null; HOURS[n.d].forEach(function(s){ if(n.m>=s[0]&&n.m<s[1]) open=s; });
+    var pill=document.getElementById("openPill"), txt=document.getElementById("openText");
+    if(open){ pill.classList.remove("closed"); txt.textContent=t.open+fmt(open[1]); }
+    else{
+      pill.classList.add("closed");
+      var nx=null;
+      for(var i=0;i<8&&!nx;i++){ var d=(n.d+i)%7; HOURS[d].some(function(s){ if(i>0||s[0]>n.m){ nx={i:i,d:d,m:s[0]}; return true;} return false; }); }
+      txt.textContent=t.cl+(nx.i===0?t.today+fmt(nx.m):nx.i===1?t.tom+fmt(nx.m):DAYS[lang][nx.d].toLowerCase()+t.at+fmt(nx.m));
+    }
+  }
+
+  var ES={};
+  document.querySelectorAll("[data-i18n]").forEach(function(el){ var k=el.getAttribute("data-i18n"); if(!(k in ES)) ES[k]=el.innerHTML; });
+  function setWa(){ document.querySelectorAll(".js-wa").forEach(function(a){ a.href="https://wa.me/"+PHONE+"?text="+encodeURIComponent(MSG[lang][a.getAttribute("data-msg")||"base"]); }); }
+  function buildTicker(){
+    var it = lang==="ca" ? ["Fisioteràpia","Entrenament personal","Osteopatia","Nutrició","Readaptació","Health Cave"] : ["Fisioterapia","Entrenamiento personal","Osteopatía","Nutrición","Readaptación","Health Cave"];
+    var h=it.map(function(x){return "<span>"+x+"</span>";}).join(""); document.getElementById("ticker").innerHTML=h+h;
+  }
+  function setLang(l){
+    lang=l; document.documentElement.lang=l;
+    document.querySelectorAll("[data-i18n]").forEach(function(el){ var k=el.getAttribute("data-i18n"), v=l==="ca"?CA[k]:ES[k]; if(v!=null) el.innerHTML=v; });
+    document.querySelectorAll(".lang button").forEach(function(b){ b.setAttribute("aria-pressed", b.dataset.lang===l?"true":"false"); });
+    setWa(); buildTicker(); renderHours();
+    try{ localStorage.setItem("habits-lang", l); }catch(e){}
+  }
+  document.querySelectorAll(".lang button").forEach(function(b){ b.addEventListener("click", function(){ setLang(b.dataset.lang); }); });
+
+  var header=document.getElementById("header");
+  function onScroll(){ header.classList.toggle("scrolled", window.scrollY>10); }
+  window.addEventListener("scroll", onScroll, {passive:true}); onScroll();
+  var burger=document.getElementById("burger");
+  function toggleMenu(force){
+    var open=typeof force==="boolean"?force:!document.body.classList.contains("menu-open");
+    document.body.classList.toggle("menu-open", open);
+    burger.setAttribute("aria-expanded", open);
+    burger.setAttribute("aria-label", open?T[lang].close:T[lang].menu);
+    document.body.style.overflow=open?"hidden":"";
+  }
+  burger.addEventListener("click", function(){ toggleMenu(); });
+  document.querySelectorAll("#nav a").forEach(function(a){ a.addEventListener("click", function(){ toggleMenu(false); }); });
+  document.addEventListener("keydown", function(e){ if(e.key==="Escape") toggleMenu(false); });
+
+  if("IntersectionObserver" in window){
+    var io=new IntersectionObserver(function(es){ es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add("in"); io.unobserve(e.target);} }); }, {threshold:.12, rootMargin:"0px 0px -40px 0px"});
+    document.querySelectorAll(".reveal").forEach(function(el){ io.observe(el); });
+  } else { document.querySelectorAll(".reveal").forEach(function(el){ el.classList.add("in"); }); }
+
+  document.getElementById("year").textContent=new Date().getFullYear();
+  setLang(lang);
+  setInterval(renderHours, 60000);
+})();
+</script>
+</body>
+</html>
